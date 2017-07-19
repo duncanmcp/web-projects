@@ -1,0 +1,166 @@
+p {
+  font: 14px/1.5 "Times New Roman", times, serif;
+  padding: 30px 10px;
+  border: 1px black solid;
+  border-width: 1px 5px 5px 1px;
+  border-color: red green blue yellow;
+  margin: 10px 50px;
+}
+
+p:first-letter {
+  font-size: 24px;
+  float: left;
+}
+
+p:first-line{
+  font-weight: bold;
+}
+a {
+  color:blue;
+  text-decoration:none;
+}
+
+li{
+  display: inline;
+}
+
+a:link{
+  color: blue;
+}
+
+a:visited{
+  color: purple;
+}
+
+a:active{
+  color: red;
+}
+
+a:hover{
+  text-decoration: none;
+  color:blue;
+  background-color: yellow;
+}
+
+input:focus, textarea:focus{
+  background: #eee;
+}
+
+body{
+  font-family: arial, helvetica, sans-serif;
+  font-size 14px;
+  color: black;
+  background: white url(hhtp://www.htmldog.com/images/bg.gif) no-repeat top right;
+  margin: 20px;
+  padding: 0;
+}
+
+/* This is a comment, by the way */
+
+h1{
+  color:#ffc;
+  background-color: #900;
+  font-size: 2em;
+  margin: 0;
+  margin-bottom: 7px;
+  padding: 4px;
+  font-style: italic;
+  text-align: center;
+  letter-spacing:0.5em;
+  border-bottom-style: solid;
+  botder-bottom-width: 0.5em;
+  border-bottom-color: #c00;
+}
+
+h2{
+  background-color: #090;
+  font-size: 1.5em;
+  margin: 0;
+  padding: 2px;
+  padding-left: 14px;
+}
+
+h3{
+  color:#999;
+  font-size: 1.25em;
+}
+
+strong{
+  font-style:italic;
+  text-transform: uppercase;
+}
+
+
+table{
+  background-color: #ccc;
+}
+
+#top {
+  background-color: #ccc;
+  padding: 20px;
+}
+
+#top h1{
+  color: #ff0;
+}
+
+#top p{
+  color: red;
+  font-weight: bold;
+}
+
+#navigation a{
+  display: block;
+  padding: 20px 10px;
+}
+
+#navigation{
+  float: left
+  width: 200px;
+}
+
+#navigation2 {
+  float: right;
+  width: 200px
+}
+
+#content{
+  margin: 0 200px;
+}
+
+#footer{
+  clear: both;
+}
+
+
+
+
+.intro{
+  color: red;
+  font-weight: bold;
+}
+
+h2, .thisOtherClass, .yetAnotherClass{
+  color: red;
+}
+
+p:first-child{
+  font-weight: bold;s
+  font-size: 40px;
+}
+
+blockquote: before{
+  content: open-quote;
+}
+
+blockquote:after{
+  content: close-quote;
+}
+
+li:before{
+  content: "POW! ";
+}
+
+p:before {
+  content: url(images/jam.jpg);
+}
